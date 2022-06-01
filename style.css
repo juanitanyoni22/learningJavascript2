@@ -1,0 +1,30 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+ul{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+li{
+   list-style: none; 
+   
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1.5rem;
+
+}
